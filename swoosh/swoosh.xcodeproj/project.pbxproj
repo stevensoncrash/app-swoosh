@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A02DFE12081596B00ED9683 /* borderbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02DFE02081596B00ED9683 /* borderbutton.swift */; };
 		4ACBC70320813C2E003E73F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBC70220813C2E003E73F7 /* AppDelegate.swift */; };
 		4ACBC70520813C2E003E73F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBC70420813C2E003E73F7 /* ViewController.swift */; };
 		4ACBC70820813C2E003E73F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBC70620813C2E003E73F7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A02DFE02081596B00ED9683 /* borderbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderbutton.swift; sourceTree = "<group>"; };
 		4ACBC6FF20813C2E003E73F7 /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACBC70220813C2E003E73F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACBC70420813C2E003E73F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A02DFDF2081595400ED9683 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A02DFE02081596B00ED9683 /* borderbutton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4ACBC6F620813C2E003E73F7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		4ACBC70120813C2E003E73F7 /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				4A02DFDF2081595400ED9683 /* Views */,
 				4ACBC70220813C2E003E73F7 /* AppDelegate.swift */,
 				4ACBC70420813C2E003E73F7 /* ViewController.swift */,
 				4ACBC70620813C2E003E73F7 /* Main.storyboard */,
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ACBC70520813C2E003E73F7 /* ViewController.swift in Sources */,
+				4A02DFE12081596B00ED9683 /* borderbutton.swift in Sources */,
 				4ACBC70320813C2E003E73F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
