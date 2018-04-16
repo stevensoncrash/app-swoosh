@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BGVC: UIViewController {
+class SkillVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

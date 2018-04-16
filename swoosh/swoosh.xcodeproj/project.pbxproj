@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4A02DFE12081596B00ED9683 /* borderbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02DFE02081596B00ED9683 /* borderbutton.swift */; };
-		4AB9E6F020828D0000ED7A9B /* LeageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9E6EF20828D0000ED7A9B /* LeageVC.swift */; };
-		4AB9E6F220828D0E00ED7A9B /* BGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9E6F120828D0E00ED7A9B /* BGVC.swift */; };
+		4AB58FE020846C3600FD7B4C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB58FDF20846C3600FD7B4C /* Player.swift */; };
+		4AB9E6F020828D0000ED7A9B /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9E6EF20828D0000ED7A9B /* LeagueVC.swift */; };
+		4AB9E6F220828D0E00ED7A9B /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9E6F120828D0E00ED7A9B /* SkillVC.swift */; };
 		4ACBC70320813C2E003E73F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBC70220813C2E003E73F7 /* AppDelegate.swift */; };
 		4ACBC70520813C2E003E73F7 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBC70420813C2E003E73F7 /* WelcomeVC.swift */; };
 		4ACBC70820813C2E003E73F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBC70620813C2E003E73F7 /* Main.storyboard */; };
@@ -19,8 +20,9 @@
 
 /* Begin PBXFileReference section */
 		4A02DFE02081596B00ED9683 /* borderbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderbutton.swift; sourceTree = "<group>"; };
-		4AB9E6EF20828D0000ED7A9B /* LeageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeageVC.swift; sourceTree = "<group>"; };
-		4AB9E6F120828D0E00ED7A9B /* BGVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGVC.swift; sourceTree = "<group>"; };
+		4AB58FDF20846C3600FD7B4C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4AB9E6EF20828D0000ED7A9B /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		4AB9E6F120828D0E00ED7A9B /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		4ACBC6FF20813C2E003E73F7 /* swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACBC70220813C2E003E73F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACBC70420813C2E003E73F7 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		4AB9E6ED20828CA000ED7A9B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4AB58FDF20846C3600FD7B4C /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -60,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				4ACBC70420813C2E003E73F7 /* WelcomeVC.swift */,
-				4AB9E6EF20828D0000ED7A9B /* LeageVC.swift */,
-				4AB9E6F120828D0E00ED7A9B /* BGVC.swift */,
+				4AB9E6EF20828D0000ED7A9B /* LeagueVC.swift */,
+				4AB9E6F120828D0E00ED7A9B /* SkillVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,8 +174,9 @@
 				4ACBC70520813C2E003E73F7 /* WelcomeVC.swift in Sources */,
 				4A02DFE12081596B00ED9683 /* borderbutton.swift in Sources */,
 				4ACBC70320813C2E003E73F7 /* AppDelegate.swift in Sources */,
-				4AB9E6F020828D0000ED7A9B /* LeageVC.swift in Sources */,
-				4AB9E6F220828D0E00ED7A9B /* BGVC.swift in Sources */,
+				4AB9E6F020828D0000ED7A9B /* LeagueVC.swift in Sources */,
+				4AB58FE020846C3600FD7B4C /* Player.swift in Sources */,
+				4AB9E6F220828D0E00ED7A9B /* SkillVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

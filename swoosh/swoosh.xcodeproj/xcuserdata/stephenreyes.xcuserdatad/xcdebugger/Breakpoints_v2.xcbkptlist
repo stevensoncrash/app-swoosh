@@ -17,5 +17,83 @@
             endingLineNumber = "20">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swoosh/AppDelegate.swift"
+            timestampString = "545552794.9144109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swoosh.AppDelegate.__deallocating_deinit"
+                  moduleName = "swoosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenreyes/Developer/app-swoosh/swoosh/swoosh/AppDelegate.swift"
+                  timestampString = "545552782.724805"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swoosh.AppDelegate.__allocating_init() -&gt; swoosh.AppDelegate"
+                  moduleName = "swoosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenreyes/Developer/app-swoosh/swoosh/swoosh/AppDelegate.swift"
+                  timestampString = "545552782.728778"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swoosh.AppDelegate.init() -&gt; swoosh.AppDelegate"
+                  moduleName = "swoosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenreyes/Developer/app-swoosh/swoosh/swoosh/AppDelegate.swift"
+                  timestampString = "545552782.732718"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "swoosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenreyes/Developer/app-swoosh/swoosh/swoosh/AppDelegate.swift"
+                  timestampString = "545552782.7376291"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
